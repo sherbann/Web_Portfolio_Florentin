@@ -1,0 +1,125 @@
+body {
+    overflow: scroll;
+  
+    font-size: 15px;
+    line-height: 22px;
+    font-family: Varela Round;
+	
+}
+
+.navbar {
+    padding: 1.2rem 0;
+    box-shadow: none;
+    z-index: auto;
+	background-color: bisque;
+}
+.nav-link{
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	-webkit-box-align: start;
+	
+}
+
+.nav-image > img
+{
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid black;
+    vertical-align: middle
+}
+.text-container {
+
+  display: inline-block;
+  width: calc(100% - 60px); /** containers width - img width - margin-left **/
+  margin-left: 10px;
+  white-space: normal;
+  vertical-align: middle
+}
+
+.persLogo > img,
+.persLogo > name{
+    display: inline-block;
+    vertical-align: middle;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  
+}
+.nameOnNavbar{
+	font-family:Sofia, Trirong;
+	font-size:large;
+	text-align: left;	
+}
+.menu-icon
+{
+	width:"50px"; 
+
+}
+.jumbotron {
+    width: 100%;
+    overflow: hidden; 
+    padding: 0px;
+
+}
+.jumbotron-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron > div {
+    display:inline-block;
+    vertical-align:top;
+    font-size: 1rem;
+}
+.prjdescript
+{
+	background-image: url("/img/Mandel1.jpg"); 
+
+}
+.aboutdescript
+{
+	background-image: url(/img/bgAbout1.jpg);
+	height: 700px;
+	font-family:Audiowide;
+}
+.indexcontainer{
+  height:600px;
+}
+.my_picture{
+	width:250px;
+	height:350px;
+	align-items: center;
+	
+}
+.contdescript{
+	background-image: url(/img/bgContact.jpg);
+	height: 600px;
+}
+.edudescript{
+	background-image: url(/img/bg-Education.jpg);
+	height: 600px;
+}
+
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}

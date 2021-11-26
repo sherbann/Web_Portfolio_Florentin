@@ -1,0 +1,21 @@
+#about_pic{
+    border-radius: 25px;
+}
+#colDescrip, #colPrjLink
+{
+    text-align: center;
+    height:150px;
+}
+
+#colPrjDescrip{
+    text-align: center;
+    height:350px;
+}
+#logoNavBar{
+    width:50px; 
+    initial-letter-align: auto;
+    align-self: flex-start;
+}
+#mypicture{
+    align-items:flex-end;
+}
