@@ -10,7 +10,7 @@ body {
 .navbar {
     padding: 1.2rem 0;
     box-shadow: none;
-    z-index: auto;
+    z-index: 99;
 	background-color: bisque;
 }
 .nav-link{
