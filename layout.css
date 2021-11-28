@@ -19,3 +19,8 @@
 #mypicture{
     align-items:flex-end;
 }
+#carousel-item1 > h1, #carousel-item2 > h1, #carousel-item3 > h1
+{
+   font-size: 8vw;
+   font-style: italic;
+}
