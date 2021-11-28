@@ -110,7 +110,8 @@ body {
 }
 .edudescript{
 	background-image: url("img/bg-Education.jpg");
-	height: 600px;
+	height: 200px;
+	align-items: center;
 }
 
 
