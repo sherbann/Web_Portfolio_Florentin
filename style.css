@@ -91,7 +91,7 @@ body {
 }
 .aboutdescript
 {
-	background-image: url(img/bgAbout1.jpg);
+	background-image: url("img/bgAbout1.jpg");
 	height: 700px;
 	font-family:Audiowide;
 }
@@ -105,11 +105,11 @@ body {
 	
 }
 .contdescript{
-	background-image: url(img/bgContact.jpg);
+	background-image: url("img/bgContact.jpg");
 	height: 600px;
 }
 .edudescript{
-	background-image: url(img/bg-Education.jpg);
+	background-image: url("img/bg-Education.jpg");
 	height: 600px;
 }
 
