@@ -32,11 +32,13 @@
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 15px;
+ 
 }
 .carousel-indicators {
   bottom: 0px;
 }
 .carousel {
+  z-index: 9px;
   overflow: hidden;
   border-radius: 5px;
   max-width: 1200px;
