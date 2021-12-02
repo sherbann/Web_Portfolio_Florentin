@@ -110,7 +110,7 @@ body {
 }
 .edudescript{
 	background-image: url("img/bg-Education.jpg");
-	
+	height: 700px;
 	
 }
 
@@ -123,4 +123,13 @@ body {
     height:auto;
     display:block;
     z-index:999;
+}
+
+.edudescript > div > div > img,
+.edudescript > div > div > img
+{
+  min-width: none;
+  max-width: 300px;
+  background-color:lightyellow;
+
 }
