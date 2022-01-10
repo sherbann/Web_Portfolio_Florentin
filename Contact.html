@@ -20,37 +20,44 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <nav class="navbar navbar-expand-md bg-light justify-content-center nav-justified container-fluid">
-                <div class="col-md nameOnNavbar container-fluid" id="nameOnNavbar">
-                 <div class="persLogo">
-                    <img src="img/persLogo/LOGO 1.JPG" alt="Florentin logo sign" id="logoNavBar">
-                    <name>
-                        <h1>Florentin Serban</h1>
-                     </name></div>
+                <div class="col-md nameOnNavbar container-fluid id=" nameOnNavbar">
+                    <div class="persLogo">
+                        <img src="img/persLogo/LOGO 1.JPG" alt="Florentin logo sign" id="logoNavBar">
+                        <name>
+                            <h1>Florentin Serban</h1>
+                        </name>
+                    </div>
                 </div>
                 <div class="navigation-bar col-sm">
-                    <ul class="navbar-nav justify-content-right menu-item menu-item-home current-menu-item"
-                        id="navbarName" href="#!">
-                        <li class="nav-item col-sm col-md-2 col-lg-2">
-                            <img src="img/nav/icons8-home.gif" alt="home" class="responsive-image" width="50px" />
+                    <ul class="navbar-nav justify-content-right menu-item menu-item-home current-menu-item" id="navbarName">
+                        <li class="nav-item col-sm2 col-md-2 col-lg-2">
+                            <a href="index.html">
+                                <img src="img/nav/icons8-home.gif" alt="home" class="responsive-image nav-image"
+                                    width="50px" /></a>
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item col-sm col-md-2 col-lg-2">
-                            <img src="img/nav/icons8-info.gif" alt="about me" class="responsive-image" width="50px" />
+                        <li class="nav-item col-sm2 col-md-2 col-lg-2">
+                            <a href="About.html">
+                                <img src="img/nav/icons8-info.gif" alt="about me" class="responsive-image nav-image"
+                                    width="50px" /></a>
                             <a class="nav-link" href="About.html">About</a>
                         </li>
-                        <li class="nav-item col-sm col-md-2 col-lg-2">
-                            <img src="img/nav/icons8-group-of-projects-50.png" , alt="my projects"
-                                class="responsive-image" width="50px" />
+                        <li class="nav-item col-sm3 col-md-3 col-lg-3">
+                            <a href="Projects.html">
+                                <img src="img/nav/icons8-group-of-projects-50.png" , alt="my projects"
+                                    class="responsive-image nav-image" width="50px" /></a>
                             <a class="nav-link" href="Projects.html">Projects</a>
                         </li>
-                        <li class="nav-item col-sm col-md-2 col-lg-2">
-                            <img src="img/nav/icons8-literature.gif" alt="my education" class="responsive-image"
-                                width="50px" />
+                        <li class="nav-item col-sm3 col-md-3 col-lg-3">
+                            <a href="Education.html">
+                                <img src="img/nav/icons8-literature.gif" alt="my education" class="responsive-image nav-image"
+                                    width="50px" /></a>
                             <a class="nav-link" href="Education.html">Education</a>
                         </li>
-                        <li class="nav-item col-sm col-md-2 col-lg-2">
-                            <img src="img/nav/icons8-user-male.gif" alt="contact me" class="responsive-image"
-                                width="50px" />
+                        <li class="nav-item col-sm2 col-md-2 col-lg-2">
+                            <a href="Contact.html">
+                                <img src="img/nav/icons8-user-male.gif" alt="contact me" class="responsive-image nav-image"
+                                    width="50px" /></a>
                             <a class="nav-link" href="Contact.html">Contact</a>
                         </li>
                     </ul>
@@ -88,7 +95,33 @@
                     </p>
                 </div>
                 <div class="col-sm col-md-1 col-lg-1"></div>
-                
+                <div class="col-sm col-md-8 col-lg-8">
+                    <form id="contact-form" class="contact-form" method="post" action="index.js">
+                        <div class="form-group">
+                            <label for="Name" class="form-label">Your name</label>
+                            <div class="form-input">
+                                <input type="text" id="Name" name="Name" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Email" class="form-label">Your email address</label>
+                            <div class="form-input">
+                                <input type="email" id="Email" name="Email" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Message" class="form-label">Your message</label>
+                            <div class="form-input">
+                                <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="3000"
+                                    required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" id="form-btn" class="form-label btn-primary btn-lg btn-block">Send
+                                Message</label>
+                        </div>
+                    </form>
+                </div>
             </div>
 
         </div>

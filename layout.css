@@ -1,3 +1,9 @@
+/*.container-fluid
+{
+  background-color: lightskyblue;
+}*/
+
+
 #about_pic{
     border-radius: 25px;
 }
@@ -21,26 +27,42 @@
 }
 #carousel-item1 > h1, #carousel-item2 > h1, #carousel-item3 > h1
 {
+   position: relative;
    font-size: 8vw;
    font-style: italic;
 }
 .carousel-caption {
-  position: static;
+  position:var();
   background: rgba(0,0,0,0.6);
   color: white;
-  padding-bottom: 15px;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 15px;
- 
+  padding-top: 20px;
+  text-align: center;
+  font-size: 150%;
+  margin-top: 20px;
 }
 .carousel-indicators {
   bottom: 0px;
 }
 .carousel {
+  position:relative;
   z-index: 9px;
   overflow: hidden;
   border-radius: 5px;
   max-width: 1200px;
   margin: 1em;
+}
+.carousel-inner
+{
+  position: relative;
+}
+.slide
+{
+  position: relative;
+}
+.carousel{
+  position: relative;
+}
+#carousel
+{
+  position: relative;
 }

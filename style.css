@@ -8,15 +8,20 @@ body {
 }
 
 .navbar {
+    position:static;
     padding: 1.2rem 0;
     box-shadow: none;
     z-index: 99;
-	background-color: bisque;
+	  background-color: bisque;
 }
 .nav-link{
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	-webkit-box-align: start;
 	
+}
+.nav-item
+{
+  justify-content: center;
 }
 
 .nav-image > img
@@ -43,20 +48,6 @@ body {
 .persLogo > name{
     display: inline-block;
     vertical-align: middle;
-}
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  
 }
 .nameOnNavbar{
 	font-family:Sofia, Trirong;
@@ -94,9 +85,11 @@ body {
 	background-image: url("img/bgAbout1.jpg");
 	height: 700px;
 	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  z-index: 10;
 }
 .indexcontainer{
-  height:600px;
+  position:relative;
+  height:auto;
 }
 .my_picture{
 	width:250px;
@@ -119,7 +112,7 @@ body {
     position:relative;
     top:-25px;
     left:-35px;
-    width:500px;
+    width:600px;
     height:auto;
     display:block;
     z-index:999;
