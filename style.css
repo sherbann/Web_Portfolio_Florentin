@@ -1,12 +1,14 @@
 body {
     overflow: scroll;
-  
+    
     font-size: 15px;
     line-height: 22px;
     font-family: Varela Round;
 	
 }
-
+h2{
+  font-size: 150%;
+}
 .navbar {
     position:static;
     padding: 1.2rem 0;
@@ -112,7 +114,7 @@ body {
     position:relative;
     top:-25px;
     left:-35px;
-    width:600px;
+    width:5vw;
     height:auto;
     display:block;
     z-index:999;
@@ -125,4 +127,14 @@ body {
   max-width: 300px;
   background-color:lightyellow;
 
+}
+@media only screen and (max-width: 480px) {
+  .imglogo {
+    width: 150px;
+    height: 50px;
+  }
+}
+.imglogo{
+  width: 50%;
+  height: 15%;
 }

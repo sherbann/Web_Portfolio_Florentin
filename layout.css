@@ -32,7 +32,7 @@
    font-style: italic;
 }
 .carousel-caption {
-  position:var();
+  position:fixed;
   background: rgba(0,0,0,0.6);
   color: white;
   padding-top: 20px;
@@ -44,6 +44,7 @@
   bottom: 0px;
 }
 .carousel {
+  padding-top: 100px;
   position:relative;
   z-index: 9px;
   overflow: hidden;
