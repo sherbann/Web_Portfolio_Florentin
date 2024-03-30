@@ -1,140 +1,160 @@
 body {
-    overflow: scroll;
-    
-    font-size: 15px;
-    line-height: 22px;
-    font-family: Varela Round;
-	
-}
-h2{
-  font-size: 150%;
-}
-.navbar {
-    position:static;
-    padding: 1.2rem 0;
-    box-shadow: none;
-    z-index: 99;
-	  background-color: bisque;
-}
-.nav-link{
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	-webkit-box-align: start;
-	
-}
-.nav-item
-{
-  justify-content: center;
+  overflow: scroll;
+
+  font-size: 15px;
+  line-height: 22px;
+  font-family: Varela Round;
+
 }
 
-.nav-image > img
-{
-    display: inline-block;
-    vertical-align: middle;
-    white-space: nowrap;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    border: 1px solid black;
-    vertical-align: middle
+h2 {
+  font-size: 150%;
 }
+
+.navbar {
+  position: static;
+  padding: 1.2rem 0;
+  box-shadow: none;
+  z-index: 99;
+  background-color: bisque;
+}
+
+.nav-link {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  -webkit-box-align: start;
+
+}
+
+.nav-item {
+  justify-content: center;
+  min-height: 100px;
+}
+
+.nav-image>img {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid black;
+  vertical-align: middle
+}
+
 .text-container {
 
   display: inline-block;
-  width: calc(100% - 60px); /** containers width - img width - margin-left **/
+  width: calc(100% - 60px);
+  /** containers width - img width - margin-left **/
   margin-left: 10px;
   white-space: normal;
   vertical-align: middle
 }
 
-.persLogo > img,
-.persLogo > name{
-    display: inline-block;
-    vertical-align: middle;
+.persLogo>img,
+.persLogo>name {
+  display: inline-block;
+  vertical-align: middle;
 }
-.nameOnNavbar{
-	font-family:Sofia, Trirong;
-	font-size:large;
-	text-align: left;	
+
+.nameOnNavbar {
+  font-family: Sofia, Trirong;
+  font-size: large;
+  text-align: left;
 }
-.menu-icon
-{
-	width:"50px"; 
+
+.menu-icon {
+  width: "50px";
 
 }
+
 .jumbotron {
-    width: 100%;
-    overflow: hidden; 
-    padding: 0px;
+  width: 100%;
+  overflow: hidden;
+  padding: 0px;
 
 }
+
 .jumbotron-image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.jumbotron > div {
-    display:inline-block;
-    vertical-align:top;
-    font-size: 1rem;
+
+.jumbotron>div {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1rem;
 }
-.prjdescript
-{
-	background-image: url("img/Mandel1.jpg"); 
+
+.prjdescript {
+  background-image: url("img/Mandel1.jpg");
 
 }
-.aboutdescript
-{
-	background-image: url("img/bgAbout1.jpg");
-	height: 700px;
-	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.aboutdescript {
+  background-image: url("img/bgAbout1.jpg");
+  height: 700px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   z-index: 10;
 }
-.indexcontainer{
-  position:relative;
-  height:auto;
+
+.indexcontainer {
+  position: relative;
+  height: auto;
 }
-.my_picture{
-	width:250px;
-	height:350px;
-	align-items: center;
-	
+
+.my_picture {
+  width: 250px;
+  height: 350px;
+  align-items: center;
+
 }
-.contdescript{
-	background-image: url("img/bgContact.jpg");
-	height: 600px;
+
+.contdescript {
+  background-image: url("img/bgContact.jpg");
+  height: 600px;
 }
-.edudescript{
-	background-image: url("img/bg_education.jpg");
-	height: 700px;
-	
+
+.edudescript {
+  background-image: url("img/bg_education.jpg");
+  height: 700px;
+
 }
 
 
 .thumbnail:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width: 600px;
-    height:auto;
-    display:block;
-    z-index:999;
+  position: relative;
+  top: -25px;
+  left: -35px;
+  width: 600px;
+  height: auto;
+  display: block;
+  z-index: 999;
 }
 
-.edudescript > div > div > img,
-.edudescript > div > div > img
-{
-  min-width: none;
+.edudescript>div>div>img,
+.edudescript>div>div>img {
+  /* min-width: none; */
   max-width: 300px;
-  background-color:lightyellow;
+  background-color: lightyellow;
 
 }
+
 @media only screen and (max-width: 480px) {
+
   .imglogo {
-    width: 150px;
-    height: 50px;
+    width: 50%;
+    height: 15%;
   }
-}
-.imglogo{
-  width: 50%;
-  height: 15%;
+
+  .jumbotron {
+    width: 50%;
+    overflow: hidden;
+    padding-top: 0px;
+  }
+
+  .nav-item.col-sm2.col-md-2.col-lg-2 {
+    min-height: 100px;
+  }
 }

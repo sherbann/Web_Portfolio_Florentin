@@ -4,66 +4,65 @@
 }*/
 
 
-#about_pic{
-    border-radius: 25px;
-}
-#colDescrip, #colPrjLink
-{
-    text-align: center;
-    height:150px;
+#about_pic {
+  border-radius: 25px;
 }
 
-#colPrjDescrip{
-    text-align: center;
-    height:350px;
+#colDescrip,
+#colPrjLink {
+  text-align: center;
+  height: 150px;
 }
-#logoNavBar{
-    width:50px; 
-    initial-letter-align: auto;
-    align-self: flex-start;
+
+#colPrjDescrip {
+  text-align: center;
+  height: 350px;
 }
-#mypicture{
-    align-items:flex-end;
+
+#logoNavBar {
+  width: 50px;
+  initial-letter-align: auto;
+  align-self: flex-start;
 }
-#carousel-item1 > h1, #carousel-item2 > h1, #carousel-item3 > h1
-{
-   position: relative;
-   font-size: 8vw;
-   font-style: italic;
+
+#mypicture {
+  align-items: flex-end;
 }
+
+#carousel-item1>h1,
+#carousel-item2>h1,
+#carousel-item3>h1 {
+  position: relative;
+  font-size: 8vw;
+  font-style: italic;
+}
+
 .carousel-caption {
-  position:fixed;
-  background: rgba(0,0,0,0.6);
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
   color: white;
   padding-top: 20px;
   text-align: center;
   font-size: 150%;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
+
 .carousel-indicators {
   bottom: 0px;
 }
+
 .carousel {
-  padding-top: 100px;
-  position:relative;
-  z-index: 9px;
+  /* padding-top: 100px; */
+  position: relative;
+  /* z-index: 9px; */
   overflow: hidden;
   border-radius: 5px;
   max-width: 1200px;
   margin: 1em;
 }
-.carousel-inner
-{
-  position: relative;
-}
-.slide
-{
-  position: relative;
-}
-.carousel{
-  position: relative;
-}
-#carousel
-{
+
+.carousel-inner,
+.slide,
+.carousel {
   position: relative;
 }
