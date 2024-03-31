@@ -91,13 +91,15 @@ h2 {
 .prjdescript {
   background-image: url("img/Mandel1.jpg");
   height: auto;
+  padding: 5%;
 }
 
 .aboutdescript {
   background-image: url("img/bgAbout1.jpg");
   height: auto;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  z-index: 10;
+  /* z-index: 10; */
+  padding: 5%;
 }
 
 
@@ -117,12 +119,13 @@ h2 {
 .contdescript {
   background-image: url("img/bgContact.jpg");
   height: auto;
+  padding: 5%;
 }
 
 .edudescript {
   background-image: url("img/bg_education.jpg");
   height: auto;
-
+  padding: 5%;
 }
 
 
@@ -130,7 +133,7 @@ h2 {
   position: relative;
   top: -25px;
   left: -35px;
-  width: 600px;
+  width: auto;
   height: auto;
   display: block;
   z-index: 999;
@@ -152,11 +155,13 @@ h2 {
   }
 
   .jumbotron {
-    width: 90%;
+    width: 100%;
     overflow: hidden;
     padding-top: 0px;
     background-color: transparent;
     color: #fff;
+    border: 2px solid whitesmoke;
+    text-align: center;
   }
 
   .nav-item.col-sm2.col-md-2.col-lg-2 {
@@ -169,6 +174,11 @@ h2 {
   .aboutdescript {
     background-color: brown;
     background-image: none;
+    padding: 5%;
+  }
+
+  .aboutdescript {
+    color: #fff;
   }
 
   .description,
