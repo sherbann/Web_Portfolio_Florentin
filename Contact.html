@@ -73,7 +73,6 @@
                     <h1 class="display-6">Florentin Serban</h1>
                     <p class="lead">Sheffield,UK </p>
                     <hr class="my-3">
-                    <p>
                     <p class="lead">
                         <i class="fa fa-envelope-open"></i>
                         <a class="btn btn-primary btn-md d-inline" href="mailto:phloryn_sherbann@yahoo.com"
@@ -81,24 +80,17 @@
                     </p>
                     <p class="lead">
                         <i class="fa fa-linkedin"></i>
-                        <a class="btn btn-success btn-md d-inline" href="http://linkedin.com/in/serban-florentin-41301860" role="button">LinkedIn</a>
-                        <a class="share-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;
-                           url=[ENTER URl]&amp;
-                           title=[ENTER TITLE]&amp;
-                           summary=[ENTER SUMMARY]&amp;
-                           source=[ENTER SOURCE/NAME OF YOUR WEBSITE]" target="_blank" rel="noopener">
-                        </a>
+                        <a class="btn btn-success btn-md d-inline" href="http://linkedin.com/in/serban-florentin-41301860" role="button" target="_blank">LinkedIn</a>
                     </p>
                     <p class="lead">
                         <i class="fa fa-github"></i>
-                        <a class="btn btn-info btn-md d-inline" href="https://github.com/sherbann" role="button">gitHub</a>
+                        <a class="btn btn-info btn-md d-inline" href="https://github.com/sherbann" role="button" target="_blank">gitHub</a>
                     </p>
                 </div>
                 <div class="col-sm col-md-1 col-lg-1"></div>
                 <div class="col-sm col-md-8 col-lg-8">
                     <form id="contact-form" class="contact-form" method="post" action="index.js">
                         <div class="form-group">
-                            <label for="Name" class="form-label">Your name</label>
                             <!-- contact form -->
                             <div class="form-input">
                                 <input 
@@ -106,21 +98,21 @@
                                 id="name" 
                                 name="name" 
                                 class="form-control"
+                                target="_blank"
                                 placeholder="enter your name" required>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="Email" class="form-label" >Your email address</label>
                             <div class="form-input">
                                 <input 
                                 type="email" 
                                 id="Email" 
                                 name="Email" 
-                                class="form-control" required>
+                                class="form-control" 
+                                placeholder="Your email address">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="Message" class="form-label">Your message</label>
                             <div class="form-input">
                                 <textarea 
                                 id="Message" 
@@ -128,7 +120,8 @@
                                 class="form-control" 
                                 rows="6" 
                                 maxlength="3000"
-                                required></textarea>
+                                required
+                                placeholder="Your message"></textarea>
                             </div>
                         </div>
                         <div class="form-group">

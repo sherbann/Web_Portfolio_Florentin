@@ -22,7 +22,7 @@ h2 {
 .nav-link {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   -webkit-box-align: start;
-
+  font-size: 1rem;
 }
 
 .nav-item {
@@ -30,14 +30,14 @@ h2 {
   min-height: 100px;
 }
 
-.nav-image>img {
+.nav-image {
   display: inline-block;
   vertical-align: middle;
   white-space: nowrap;
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-  border: 1px solid black;
+  height: auto;
+  max-width: 5rem;
+  /* border-radius: 50%; */
+  /* border: 1px solid black; */
   vertical-align: middle
 }
 
@@ -71,8 +71,7 @@ h2 {
 .jumbotron {
   width: 100%;
   overflow: hidden;
-  padding: 0px;
-
+  padding: 5px;
 }
 
 .jumbotron-image {
@@ -87,21 +86,25 @@ h2 {
   font-size: 1rem;
 }
 
+
+
 .prjdescript {
   background-image: url("img/Mandel1.jpg");
-
+  height: auto;
 }
 
 .aboutdescript {
   background-image: url("img/bgAbout1.jpg");
-  height: 700px;
+  height: auto;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   z-index: 10;
 }
 
+
 .indexcontainer {
   position: relative;
   height: auto;
+  background-repeat: no-repeat;
 }
 
 .my_picture {
@@ -113,12 +116,12 @@ h2 {
 
 .contdescript {
   background-image: url("img/bgContact.jpg");
-  height: 600px;
+  height: auto;
 }
 
 .edudescript {
   background-image: url("img/bg_education.jpg");
-  height: 700px;
+  height: auto;
 
 }
 
@@ -144,17 +147,32 @@ h2 {
 @media only screen and (max-width: 480px) {
 
   .imglogo {
-    width: 50%;
+    width: 100%;
     height: 15%;
   }
 
   .jumbotron {
-    width: 50%;
+    width: 90%;
     overflow: hidden;
     padding-top: 0px;
+    background-color: transparent;
+    color: #fff;
   }
 
   .nav-item.col-sm2.col-md-2.col-lg-2 {
     min-height: 100px;
+  }
+
+  .prjdescript,
+  .contdescript,
+  .edudescript,
+  .aboutdescript {
+    background-color: brown;
+    background-image: none;
+  }
+
+  .description,
+  .lead {
+    padding-left: 20px;
   }
 }
